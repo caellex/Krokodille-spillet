@@ -2,6 +2,7 @@
 let showResult =  Math.floor(Math.random() * 100+1);
 let showResult2 =  Math.floor(Math.random() * 100+1);
 const reloadResult = showResult + " er ditt tilfeldige nummer.";
+let inputBox = document.getElementById("answer").value;
 
 // Første Math.random tall - Kjører math.random og outputter et tall mellom 1-100 til div#mathRDisplay
 showMathRandom();
