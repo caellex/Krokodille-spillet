@@ -13,7 +13,7 @@ ${showResult} er ditt tilfeldige nummer.
 }
 function reloadMathRandom(){
 Math.floor(Math.random() * 100+1);
-showResult = Math.floor(Math.random() * 100+1);
+showResult = Math.floor(Math.random(1, 30) * 100+1);
 showMathRandom();
 }
 // Andre Math.random tall - gjør akkurat det samme som over, bare for div#mathRDisplay
