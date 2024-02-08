@@ -12,18 +12,19 @@
     
         <div id="gameContainer">
             <div id="mathRDisplay"></div>
-            <input id="answer" type="text" maxlength="1"></input>
+            <input id="answer" type="text" maxlength="1" onkeydown="handleKeyPress(event)"></input>
             <div id="mathRDisplay2"></div>
         </div>
     <div id="mainContainer">    
         <button onclick="checkMathCorrect()">Submit</button>
         <div id="Response"></div>
     </div>
+    <div id="notValidInput"></div>
 
 
 
 
-    <script src="JavaScript/test.js"></script>
+    <script src="JavaScript/main.js"></script>
 </body>
 
 </html>
