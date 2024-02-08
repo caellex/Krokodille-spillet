@@ -35,16 +35,16 @@ function checkMathCorrect(){
         updateMath();
     } else {
         points--;
-        updateMath();
-        
         
     }
+    document.getElementById("answer").value = "";
+    updateMath();
 }
 
 function failGame(){
     if(points <= -1){
     document.getElementById('mainContainer').innerHTML = /*HTML*/`
-    <div style="margin: auto auto auto; border: solid black 2px; height: 100px; width: 100px;"> You failed! Please refresh the page to try again. </div>
+    <div style="margin: auto auto auto; border: solid black 2px; height: 150px; width: 150px; text-align: center; padding: 5px;"> You failed! Please press CTRL+R to refresh your page and restart. </div>
 
     `
     }

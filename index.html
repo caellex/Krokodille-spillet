@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="Stylesheet" href="CSS/style.css"
+    <link rel="Stylesheet" href="CSS/style.css" 
 </head>
-<body>
-    <div id="mainContainer">
-    <div id="mathRDisplay"></div>
-    <input style="height: 15px; width: 200px;" id="answer" type="text"></input><p id="Response"></p>
-    <div id="mathRDisplay2"></div>
-    <button onclick="checkMathCorrect()">Submit</button>
-</div>
 
+<body>
+    
+        <div id="gameContainer">
+            <div id="mathRDisplay"></div>
+            <input id="answer" type="text" maxlength="1"></input>
+            <div id="mathRDisplay2"></div>
+        </div>
+    <div id="mainContainer">    
+        <button onclick="checkMathCorrect()">Submit</button>
+        <div id="Response"></div>
+    </div>
 
 
 
 
     <script src="JavaScript/test.js"></script>
 </body>
+
 </html>
