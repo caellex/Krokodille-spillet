@@ -22,3 +22,8 @@ height: 20px;
 width: 30px;
 text-align: center;
 }
+
+.center {
+    position: absolute;
+    margin-top: 100px;
+    }

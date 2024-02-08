@@ -54,6 +54,7 @@ function failGame(){
     `
     document.getElementById('mainContainer').innerHTML = /*HTML*/`
     <div style="margin: auto auto auto; border: solid black 2px; height: 150px; width: 150px; text-align: center; padding: 5px;"> You failed! Please press CTRL+R to refresh your page and restart. </div>
+    <br><img src="rip.png" width="50px" height="50px" class="center"/>
     `
     }
 
