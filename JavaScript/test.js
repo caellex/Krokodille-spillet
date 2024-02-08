@@ -43,6 +43,9 @@ function checkMathCorrect(){
 
 function failGame(){
     if(points <= -1){
+    document.getElementById('gameContainer').innerHTML = /*HTML*/`
+    
+    `
     document.getElementById('mainContainer').innerHTML = /*HTML*/`
     <div style="margin: auto auto auto; border: solid black 2px; height: 150px; width: 150px; text-align: center; padding: 5px;"> You failed! Please press CTRL+R to refresh your page and restart. </div>
 
