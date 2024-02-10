@@ -43,8 +43,8 @@ function checkMathCorrect(){
 
 function handleKeyPress(event) {
     if (event.key === "Enter") {
-        event.preventDefault(); // Prevent the default form submission
-        checkMathCorrect(); // Call the function when Enter is pressed
+        event.preventDefault();
+        checkMathCorrect(); 
     }
 }
 
