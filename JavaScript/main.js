@@ -53,9 +53,14 @@ function failGame(){
     document.getElementById('gameContainer').innerHTML = /*HTML*/`
     `
     document.getElementById('mainContainer').innerHTML = /*HTML*/`
-    <div style="margin: auto auto auto; border: solid black 2px; height: 150px; width: 150px; text-align: center; padding: 5px;"> You failed! Please press CTRL+R to refresh your page and restart. </div>
+    <div style="margin: auto auto auto; border: solid black 2px; height: 150px; width: 150px; text-align: center; padding: 5px;"> You failed! Please press the Reset button to restart or CTRL+R to refresh your page. </div>
     <br><img src="rip.png" width="50px" height="50px" class="center"/>
+    <button onclick="resetGame()" class="centerBtn">Reset</div>
     `
     }
 
+}
+
+function resetGame(){
+    location.reload ()
 }
